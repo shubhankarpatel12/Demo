@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    float: right;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+}
+div{
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 300px;
+}
+table{
+    background-color: aqua;
+}
+tr{
+    background-color: blueviolet;
+    color:white
+}
