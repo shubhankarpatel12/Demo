@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello World Button Click</title>
+</head>
+<body>
+
+
+<button id="helloButton">Click me</button>
+<div id="message"></div>
+
+<script>
+    const btn1= document.getElementById("helloButton");
+    btn1.onclick = helloworld;
+    function helloworld(){
+        var messageDiv = document.getElementById("message");
+        messageDiv.innerHTML += "Hello World<br>";
+    }
+        
+</script>
+
+</body>
+</html>
