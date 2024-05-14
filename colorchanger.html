@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click Me!!</button>
+</body>
+<script>
+const btn1=document.getElementById("btn");
+btn1.onclick=color_change;
+const array = ["Red","Green","Blue","White","Yellow","Orange","Purple","Gray","Brown","Cyan","Magenta","Turquoise","Lavender","Indigo","Teal","Maroon","Navy","Olive"];
+function color_change(){
+    const randomIndex = Math.floor(Math.random() * array.length);
+    document.body.style.backgroundColor = array[randomIndex];
+}
+</script>
+</html>
