@@ -1,0 +1,14 @@
+body{
+    background-image:linear-gradient(to right,#f7ff00,#db36a4);
+}
+
+.div1{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 30px white;
+    position: relative;
+    top:30px;
+    left: 300px;
+    padding: 20px;
+    background-image:linear-gradient(to right,#ff4b1f,#1fddff);
+    text-align: center;
