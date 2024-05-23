@@ -1,0 +1,16 @@
+
+body{
+    background: radial-gradient(yellow,blue);
+}
+
+h3{
+    font-family: 'Gloria Hallelujah';
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: -4px 4px 4px red;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    text-align: center;
+}
+
