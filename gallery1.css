@@ -1,0 +1,18 @@
+.container{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    gap:5px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border:2px solid white;
+    transition: all ease-out 1s;
+}
+
+.container img:hover{
+    width: 100%;
+}
