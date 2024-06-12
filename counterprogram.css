@@ -1,0 +1,14 @@
+
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+    font-family: Helvetica;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    font-size: 4em;
+    background-image: linear-gradient(to right,#fc00ff,#00dbde);
+}
