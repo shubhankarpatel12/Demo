@@ -20,21 +20,3 @@ console.log(Math.sqrt(2))
 
 console.log(Math.pow(3,2))
 console.log(Math.E)
-
-
-let space = ' '
-let fname= "Shubhankar"
-let lname = "Patel"
-let country = "India"
-let city = "Kanpur"
-let language = "Javascript"
-let age="19"
-
-let fullname= fname+space+lname
-console.log(fullname)
-
-let personInfoOne = fullname+" I am "+age+" I live in "+city
-console.log(personInfoOne)
-
-let personInfoTwo = `I am ${fullname}. I am ${age} years old. I live in ${city},${country}. I am learning ${language}.`
-console.log(personInfoTwo)
