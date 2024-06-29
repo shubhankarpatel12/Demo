@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHUBHANKAR RESUME BUILDER</title>
     <link rel="stylesheet" href="form.css">
-    <title>Document</title>
 </head>
 <body>
-    <div class="div1">
-   <form action="#" method="get">
-   <label for="first">First name:</label> 
-   <input type="text" placeholder="Abhay" id="first" name="fn" required>
-   <br>
-   <label for="last">Last name:</label> 
-   <input type="text" placeholder="Tripathi" id="last" name="ln" required>
-   <br>
-   <label for="email">Email:</label> 
-   <input type="email" placeholder="spongefacts@gmail.com" id="email" name="email" required>
-   <br>
-   <label for="pass">Password:</label> 
-   <input type="password"  id="pass" name="pass" required>
-   <br>
-   <label>Please Select your Favourite Language</label><br>
-   <input type="checkbox" id="html" name="fav1" value="html">
-   <label for="html">HTML</label><br>
-   <input type="checkbox" id="css" name="fav2" value="css">
-   <label for="css">CSS</label><br>
-   <input type="checkbox" id="javascript" name="fav3" value="javascript">
-   <label for="javascript">Javascript</label><br>
-   <label>Plaese Select your Gender</label><br>
-   <input type="radio" id="male" name="gender" value="male">
-   <label for="male">Male</label><br>
-   <input type="radio" id="female" name="gender" value="female">
-   <label for="female">Female</label><br>
-   <label for="colour">Pick your Favourite Colour:</label>
-   <input type="color" id="colour" name="colour"><br>
-   <label for="d">Date of Birth:</label>
-   <input type="date" id="d" name="DOB"><br>
-   <input type="submit">
-   <br>
-   <input type="reset">
-</form>
-</div>
+    <form id="resume-form">
+        <input type="file" id="input-file" accept="image/jpeg,image/png,image/jpg"><br>
+        <label for="name">Name</label>
+        <input type="text" id="name"><br>
+
+        <label for="designation">Designation</label>
+        <input type="text" id="designation"><br>
+
+        <label for="aboutMe">Tell us about yourself:</label><br>
+        <textarea id="aboutMe" rows="10" cols="50"></textarea><br><br>
+
+        <label for="experience">Your Experience:</label><br>
+        <textarea id="experience" rows="10" cols="50" placeholder="Describe your experience here..."></textarea><br><br>
+
+        <h3>Please list the languages you know, along with your proficiency level for each language. For example: "Hindi: Intermediate, English: Fluent"</h3>
+        <div id="language-section">
+            <label for="language">Language</label>
+            <input type="text" id="language"><br>
+            <label for="level">Level</label>
+            <input type="text" id="level"><br>
+        </div>
+        <button type="button" id="add-language-button">Add Another Language</button><br>
+
+        <h3>Please list the Programming Languages you know, along with your proficiency level for each language. For example: "HTML: 90%, JAVASCRIPT: 70%"</h3>
+        <div id="programming-language-section">
+            <label for="p_language">Programming Language:</label>
+            <input type="text" id="p_language">
+            <label for="percentage">Proficiency (%):</label>
+            <input type="number" id="percentage" name="percentage" min="0" max="100"><br>
+        </div>
+        <button type="button" id="add-programming-language-button">Add Another Programming Language</button><br>
+
+        <label for="interests">Hobbies and Interests:</label>
+        <div id="interests-section">
+            <input type="text" id="interests"><br>
+        </div>
+        <button type="button" id="add-interest-button">Add Another Interest</button><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 123-456-7890"><br><br>
+
+        <button id="mySubmit">Submit Button</button>
+        <br>
+    </form>
+    <script src="form.js"></script>
 </body>
 </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="resume1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+   integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="main">
+    <div class="left">
+        <div class="profilebox">
+          <div class="imgbx">
+            <img src="" alt="Profile Image" id="pimage">
+          </div>
+          <h2 id="name"></h2>
+          <span id="designation"></span>
+        </div>
+        <div class="contact">
+          <h3 class="tittle">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span class="text" id="phone"></span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <span class="text" id="email"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="contact Languages">
+          <h3 class="title">Languages</h3>
+          <ul id="languages-list"></ul>
+        </div>
+    </div>
+    <div class="right">
+        <div class="about">
+          <div class="profile">
+            <h2 class="title2">Profile</h2>
+            <p id="aboutMe"></p>
+          </div>
+        </div>
+        <div class="about">
+          <h2 class="title2">Experience</h2>
+          <p id="experience"></p>
+        </div>
+        <div class="about skills">
+          <h2 class="title2">Programming Languages</h2>
+          <div id="programming-languages-list"></div>
+        </div>
+        <div class="about interest">
+          <h2 class="title2">Interests</h2>
+          <ul id="interests-list"></ul>
+        </div>
+    </div>
+  </div>
+  <script src="resume1.js"></script>
+</body>
+</html>
